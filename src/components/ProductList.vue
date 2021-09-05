@@ -1,7 +1,7 @@
 
 <template>
   <ul class="catalog__list">
-      <ProductItem v-for="product in products" :key="product.id" :product-label="product.title" :product-price="product.price" :product-image-link="product.image"/>
+      <ProductItem v-for="product in products" :key="product.id" :product-label="product.title" :product-price="product.price" :product-image-link="product.image" :product-colors="product.colors"/>
   </ul>
 </template>
 
