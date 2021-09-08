@@ -1,7 +1,7 @@
 <template>
   <li class="catalog__item">
     <a class="catalog__pic" href="#" @click.prevent="goToPage('product', {id: productId})">
-      <img :src="productImageLink" srcset="img/scooter@2x.jpg 2x" alt="Название товара">
+      <img :src="productImageLink" alt="Название товара">
     </a>
 
     <h3 class="catalog__title">
