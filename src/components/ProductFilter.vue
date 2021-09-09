@@ -20,7 +20,7 @@
                 <label class="form__label form__label--select">
                     <select class="form__select" type="text" name="category" v-model="currentCategoryId">
                         <option value="value1">Все категории</option>
-                        <option value="category.id" v-for="category in categories" :key="category.id">{{category.title}}</option>
+                        <option :value="category.id" v-for="category in categories" :key="category.id">{{category.title}}</option>
                     </select>
                 </label>
             </fieldset>

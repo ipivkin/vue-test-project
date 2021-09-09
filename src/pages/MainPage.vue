@@ -42,7 +42,7 @@ export default {
       filterCategoryId: 0,
       filterColorId: 0,
       page: 1,
-      productsPerPage: 3
+      productsPerPage: 4
     }
   },
   computed: {
